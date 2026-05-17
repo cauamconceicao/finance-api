@@ -157,3 +157,4 @@ C:\Users\cauam\FinanceApi\obj\Release\net10.0\refint\FinanceApi.dll
 C:\Users\cauam\FinanceApi\obj\Release\net10.0\FinanceApi.pdb
 C:\Users\cauam\FinanceApi\obj\Release\net10.0\FinanceApi.genruntimeconfig.cache
 C:\Users\cauam\FinanceApi\obj\Release\net10.0\ref\FinanceApi.dll
+C:\Users\cauam\FinanceApi\obj\Release\net10.0\FinanceApi.sourcelink.json

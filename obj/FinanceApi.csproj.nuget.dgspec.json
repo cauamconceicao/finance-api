@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Users\\cauam\\financeapi\\FinanceApi.csproj": {}
+    "C:\\Users\\cauam\\FinanceApi\\FinanceApi.csproj": {}
   },
   "projects": {
-    "C:\\Users\\cauam\\financeapi\\FinanceApi.csproj": {
+    "C:\\Users\\cauam\\FinanceApi\\FinanceApi.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\cauam\\financeapi\\FinanceApi.csproj",
+        "projectUniqueName": "C:\\Users\\cauam\\FinanceApi\\FinanceApi.csproj",
         "projectName": "FinanceApi",
-        "projectPath": "C:\\Users\\cauam\\financeapi\\FinanceApi.csproj",
+        "projectPath": "C:\\Users\\cauam\\FinanceApi\\FinanceApi.csproj",
         "packagesPath": "C:\\Users\\cauam\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\cauam\\financeapi\\obj\\",
+        "outputPath": "C:\\Users\\cauam\\FinanceApi\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
           "C:\\Users\\cauam\\AppData\\Roaming\\NuGet\\NuGet.Config"
@@ -33,6 +33,9 @@
           "warnAsError": [
             "NU1605"
           ]
+        },
+        "restoreLockProperties": {
+          "restorePackagesWithLockFile": "true"
         },
         "restoreAuditProperties": {
           "enableAudit": "true",
