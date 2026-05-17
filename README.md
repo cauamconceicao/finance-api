@@ -2,6 +2,8 @@
 
 API REST para gerenciamento de finanças pessoais desenvolvida em C# com ASP.NET Core 8.
 
+🔗 **[API em produção](https://finance-api-y04i.onrender.com)**
+
 ---
 
 ## ✨ Funcionalidades
@@ -9,7 +11,7 @@ API REST para gerenciamento de finanças pessoais desenvolvida em C# com ASP.NET
 - **Autenticação** — registro e login com JWT
 - **Transações** — CRUD completo com filtros por tipo e categoria
 - **Categorias** — gerenciamento de categorias personalizadas por usuário
-- **Swagger** — documentação automática dos endpoints
+- **Swagger** — documentação automática dos endpoints (ambiente de desenvolvimento)
 - **Seed de dados** — dados iniciais para facilitar os testes
 
 ---
@@ -25,6 +27,8 @@ API REST para gerenciamento de finanças pessoais desenvolvida em C# com ASP.NET
 | [JWT](https://jwt.io/) | Autenticação |
 | [Swagger](https://swagger.io/) | Documentação da API |
 | [BCrypt](https://github.com/BcryptNet/bcrypt.net) | Hash de senhas |
+| [Docker](https://www.docker.com/) | Containerização |
+| [Render](https://render.com/) | Deploy |
 
 ---
 
@@ -93,10 +97,10 @@ Authorization: Bearer {seu_token}
 ### Registro
 
 ```json
-POST /api/auth/register
+POST https://finance-api-y04i.onrender.com/api/auth/register
 {
   "name": "Cauã",
-  "email": "cauamartins2005@gmail.com",
+  "email": "seu@email.com",
   "password": "123456"
 }
 ```
@@ -104,9 +108,9 @@ POST /api/auth/register
 ### Login
 
 ```json
-POST /api/auth/login
+POST https://finance-api-y04i.onrender.com/api/auth/login
 {
-  "email": "cauamartins2005@gmail.com",
+  "email": "seu@email.com",
   "password": "123456"
 }
 ```
@@ -114,7 +118,7 @@ POST /api/auth/login
 ### Criar transação
 
 ```json
-POST /api/transactions
+POST https://finance-api-y04i.onrender.com/api/transactions
 Authorization: Bearer {token}
 
 {
@@ -145,6 +149,7 @@ FinanceApi/
 ├── Services/             # Lógica de negócio
 ├── Data/                 # Contexto do banco
 │   └── AppDbContext.cs
+├── Dockerfile            # Containerização
 └── Program.cs            # Configuração da aplicação
 ```
 
